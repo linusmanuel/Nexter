@@ -1,0 +1,25 @@
+{
+  "name": "nexter",
+  "version": "1.0.0",
+  "description": "Webpage Nexter",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "concat:css": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusmanuel/Nexter.git"
+  },
+  "author": "Linus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusmanuel/Nexter/issues"
+  },
+  "homepage": "https://github.com/linusmanuel/Nexter#readme",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^6.0.1"
+  }
+}
